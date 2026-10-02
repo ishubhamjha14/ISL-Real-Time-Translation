@@ -1,0 +1,42 @@
+# Environment & Secrets (CRITICAL)
+.env
+*.env
+.env.*
+secrets.json
+.streamlit/secrets.toml
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Datasets & Heavy Media
+dataset/
+datasets/
+data/
+raw_data/
+processed_data/
+*.csv
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# Checkpoints / PyTorch Weights
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# Cache & Local Files
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+scratch/
+*.wav

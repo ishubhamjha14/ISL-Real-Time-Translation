@@ -1,0 +1,266 @@
+{
+  "timestamp": "2026-10-02T14:01:17.481863",
+  "device": "cpu",
+  "model_architecture": {
+    "type": "ISLTransformerClassifier",
+    "d_model": 128,
+    "nhead": 4,
+    "dim_feedforward": 256,
+    "num_layers": 2,
+    "dropout": 0.35,
+    "pooling": "mean",
+    "input_dim": 226,
+    "num_classes": 37,
+    "total_parameters": 305061
+  },
+  "classification_performance": {
+    "top1_accuracy": 91.59,
+    "top5_accuracy": 99.07,
+    "total_test_samples": 107,
+    "macro_avg": {
+      "precision": 0.9387,
+      "recall": 0.9144,
+      "f1_score": 0.9074
+    },
+    "weighted_avg": {
+      "precision": 0.9371,
+      "recall": 0.9159,
+      "f1_score": 0.9084
+    },
+    "per_gloss": {
+      "Nice": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "atm": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 4
+      },
+      "bag": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "bank": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "bathroom": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "beautiful": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 4
+      },
+      "bedroom": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1_score": 0.8,
+        "support": 2
+      },
+      "blind": {
+        "precision": 1.0,
+        "recall": 0.3333,
+        "f1_score": 0.5,
+        "support": 3
+      },
+      "book": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1_score": 0.8,
+        "support": 3
+      },
+      "curved": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "deaf": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "female": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "flat": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "fly": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 4
+      },
+      "goodmorning": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "happy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 4
+      },
+      "hello": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1_score": 0.8571,
+        "support": 3
+      },
+      "hii": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "home": {
+        "precision": 1.0,
+        "recall": 0.3333,
+        "f1_score": 0.5,
+        "support": 3
+      },
+      "hospital": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1_score": 0.8571,
+        "support": 3
+      },
+      "key": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "kitchen": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6667,
+        "support": 2
+      },
+      "lock": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "loud": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1_score": 0.8571,
+        "support": 4
+      },
+      "male": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "mall": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "namaste": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1_score": 0.8571,
+        "support": 3
+      },
+      "paint": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "photograph": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "poor": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 2
+      },
+      "quiet": {
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1_score": 0.6667,
+        "support": 4
+      },
+      "rich": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1_score": 0.8571,
+        "support": 3
+      },
+      "sad": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 4
+      },
+      "telephone": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 3
+      },
+      "thick": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6667,
+        "support": 2
+      },
+      "thin": {
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1_score": 0.8,
+        "support": 2
+      },
+      "ugly": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1_score": 0.8889,
+        "support": 4
+      }
+    }
+  },
+  "latency_profiling_ms": {
+    "mediapipe_single_frame_ms": 31.65,
+    "mediapipe_single_frame_std": 5.97,
+    "mediapipe_30_frame_window_ms": 949.54,
+    "transformer_inference_ms": 0.78,
+    "transformer_inference_std": 0.91,
+    "tts_trigger_dispatch_ms": 0.0,
+    "per_frame_pipeline_latency_ms": 32.43,
+    "e2e_sequence_decision_latency_ms": 950.32,
+    "estimated_pipeline_fps": 30.8
+  }
+}
